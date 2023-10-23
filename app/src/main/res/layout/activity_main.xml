@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="423dp"
+        android:gravity="bottom
+"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+                android:text="CE"
+                android:textColor="@color/black"
+                app:backgroundTint="#AFAFAF"
+                android:onClick="allClearAction"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="C"
+                android:textColor="@color/black"
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="5dp"
+                android:onClick="backSpaceAction"/>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="BS"
+                android:textColor="@color/black"
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="/"
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+
+
+                android:text="7"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="8"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="9"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+
+                android:singleLine="false"
+                android:text="x"
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="4"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="5"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="6"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+
+                android:singleLine="false"
+                android:text="-"
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button"
+                android:hapticFeedbackEnabled="false"
+                android:text="1"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="2"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="3"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button16"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+
+                android:singleLine="false"
+                android:text="+"
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+
+                android:singleLine="false"
+                android:text="+/-"
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button18"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:hapticFeedbackEnabled="false"
+                android:text="0"
+                android:textColor="#000000"
+                android:textColorHighlight="#F6F4F4"
+                android:textColorHint="#FAF5F5"
+                android:textColorLink="#F6F6F6"
+                app:backgroundTint="#D5D5D5"
+                app:strokeColor="#000000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button19"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:singleLine="false"
+                android:text="."
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+
+            <Button
+                android:id="@+id/button20"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_weight="1"
+
+                android:singleLine="false"
+                android:text="="
+                app:backgroundTint="#AFAFAF"
+                app:strokeColor="#F60000"
+                app:strokeWidth="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/workingsTV"
+        android:layout_width="412dp"
+        android:layout_height="119dp"
+        android:background="#CCCCCC"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="end"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+</androidx.constraintlayout.widget.ConstraintLayout>
